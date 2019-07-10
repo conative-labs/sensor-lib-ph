@@ -19,4 +19,5 @@ License
 ----
 
 GNU General Public License v3.0
+
 ***Copyright (C) 2019 Conative Labs***
