@@ -17,7 +17,11 @@
  */
 
 #include "lib_ph.h"
+#ifdef TEST
+#include "lib_ph_config_test.h"
+#else
 #include "lib_ph_config.h"
+#endif
 
 #define MAGIC_NUMBER_DEFAULT 0x63
 #define SLOPE_DEFAULT 0.1984f
