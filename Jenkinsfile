@@ -7,7 +7,7 @@ node {
             sh 'mv test_suite/project.yml.back test_suite/project.yml'
             sh 'ceedling upgrade test_suite' // upgrade ceedling
         }
-        
+
         stage('Unit Test') {
             dir("test_suite") {
                 sh 'ceedling gcov:all'
